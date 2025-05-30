@@ -7,7 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://frontend-service-376671081583.us-central1.run.app")
 @RestController
 @RequestMapping("/clientes")
 @RequiredArgsConstructor
