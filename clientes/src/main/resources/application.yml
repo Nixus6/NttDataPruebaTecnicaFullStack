@@ -1,0 +1,14 @@
+server:
+  port: 8090
+
+spring:
+  profiles:
+    active: dev
+
+logging:
+  level:
+    root: INFO
+    com.nttdata.clientes: DEBUG
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%level] %logger{10} - %msg%n"
+
